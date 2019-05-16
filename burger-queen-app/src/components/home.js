@@ -1,6 +1,5 @@
 import React from "react";
- import burgerLogo from "../burgerLogo.png"; //declarar una variable para importar la imagen
-
+import burgerLogo from "../burgerLogo.png"; //declarar una variable para importar la imagen
 
 const home = () => {
   return (
