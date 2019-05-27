@@ -1,33 +1,30 @@
-import React, { Component } from "react"; //importar componente de react
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import React, { Component } from "react"; // ROUTE PATH
 import "./App.css";
-import "materialize-css/dist/css/materialize.min.css";
-import home from "./components/home";
+import "bootstrap/dist/css/bootstrap.min.css"; // import bootstrap 
+import { Route, Switch } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import ProductList from "./components/ProductList";
+import Details from "./components/Details";
+import Default from "./components/Default";
+import Cart from "./components/Cart";
+import Modal from "./components/Modal";
 
-import kitchen from "./components/kitchen";
-import error from "./components/error";
-import Navigation from "./components/Navigation";
-
-import Menus from "./components/menus";
 
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
-        <div>
-          <Navigation />
-          <Switch>
-            <Route path="/" component={home} exact />
-            <Route path="/menus" component={Menus}/>
-            <Route path="/kitchen" component={kitchen} />
-            
-            <Route component={error}/>
-          </Switch>
-        </div>
-      </BrowserRouter>
+      <React.Fragment> 
+        <Navbar />
+        <Switch>
+          <Route exact path="/" component={ProductList} />
+          <Route path="/details" component={Details} />
+          <Route path="/cart" component={Cart} />
+          <Route component={Default} />
+        </Switch>
+        <Modal />
+      </React.Fragment>
     );
   }
 }
 
 export default App;
-
