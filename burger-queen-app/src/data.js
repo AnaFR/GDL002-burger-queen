@@ -3,7 +3,7 @@ export const storeProducts = [
   {
     id: 1,
     title: "Black coffe",
-    img: "img/black-coffe.png",
+    img: "https://claudiagarfias.works/laboratoria/sharedimages/black-coffe.png",
     price: 5,
     info:"Is normally brewed coffee without any added flavors, cream, or sugar",
       
@@ -14,7 +14,7 @@ export const storeProducts = [
   {
     id: 2,
     title: "Latte",
-    img: "img/latte.png",
+    img: "https://claudiagarfias.works/laboratoria/sharedimages/latte.png",
     price: 16,
     
     info:
@@ -26,7 +26,7 @@ export const storeProducts = [
   {
     id: 3,
     title: "Sandwich",
-    img: "img/Ham-cheese-sandwich.png",
+    img: "https://claudiagarfias.works/laboratoria/sharedimages/Ham-cheese-sandwich.png",
     price: 10,
     
     info:
@@ -38,7 +38,7 @@ export const storeProducts = [
   {
     id: 4,
     title: "Fresh juice",
-    img: "img/juice.png",
+    img: "https://claudiagarfias.works/laboratoria/sharedimages/juice.png",
     price: 7,
    
     info:

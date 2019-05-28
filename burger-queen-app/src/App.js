@@ -1,7 +1,8 @@
 import React, { Component } from "react"; // ROUTE PATH
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css"; // import bootstrap 
-import { Route, Switch } from "react-router-dom";
+import {HashRouter, Route, Switch } from "react-router-dom";
+
 import Navbar from "./components/Navbar";
 import ProductList from "./components/ProductList";
 import Details from "./components/Details";
