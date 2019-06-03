@@ -9,6 +9,7 @@ import Details from "./components/Details";
 import Default from "./components/Default";
 import Cart from "./components/Cart";
 import Modal from "./components/Modal";
+import Home from "./components/home.js";
 
 
 class App extends Component {
@@ -17,9 +18,10 @@ class App extends Component {
       <React.Fragment> 
         <Navbar />
         <Switch>
-          <Route exact path="/" component={ProductList} />
+          <Route exact path="/" component={Home} />    
+          <Route path="/menu" component={ProductList} />
           <Route path="/details" component={Details} />
-          <Route path="/cart" component={Cart} />
+          <Route path="/kitchen" component={Cart} />
           <Route component={Default} />
         </Switch>
         <Modal />

@@ -12,12 +12,12 @@ export default class Navbar extends Component {
         </Link>
         <ul className="navbar-nav align-items-center">
           <li className="nav-item ml-5">
-            <Link to="/" className="nav-link">
+            <Link to="/menu" className="nav-link">
               Menu
             </Link>
           </li>
         </ul>
-        <Link to="/cart" className="ml-auto">
+        <Link to="/kitchen" className="nav-link">
           Kitchen
         </Link>
       </Nav>
@@ -29,7 +29,7 @@ const Nav = styled.nav`
   background: var(--mainBrown);
   .nav-link {
     color: var(--mainWhite) !important;
-    font-size:1.3rem;
+    font-size:1.2rem;
     text-transform:capitalize;
   }
   @media (max-width: 576px) {
