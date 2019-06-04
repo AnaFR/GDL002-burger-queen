@@ -1,3 +1,6 @@
+//MODAL
+
+
 import React, { Component } from "react";
 import styled from "styled-components";
 import { ProductConsumer } from "../context";
@@ -25,16 +28,16 @@ export default class Modal extends Component {
                       <img src={img} className="img-fluid" alt="" />
                       <h5>{title}</h5>
                       <h5 className="text-muted">price : ${price}</h5>
-                      <Link to="/">
+                      <Link to="/menu">
                         <ButtonContainer
                           onClick={() => {
                             closeModal();
                           }}
                         >
-                          Add more 
+                          Add more
                         </ButtonContainer>
                       </Link>
-                      <Link to="/cart">
+                      <Link to="/kitchen">
                         <ButtonContainer
                           cart
                           onClick={() => {

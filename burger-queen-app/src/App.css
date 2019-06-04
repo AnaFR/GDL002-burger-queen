@@ -45,3 +45,48 @@ body {
     background: var(--mainDark) !important;
     color: var(--mainWhite) !important;
 }
+
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    grid-gap: 5px;
+    padding: 10px;
+    /* background-color: #2a2a72; */
+    grid-auto-flow: column;
+  }
+  .grid-container > div {
+    /* background-color: rgba(245, 222, 179, 0.4); */
+    text-align: center;
+    padding: 10px 15;
+    font-size: 10px;
+  }
+  /* .item1 {
+    grid-template-columns: auto auto;
+    grid-column: 3/6;
+  }  */
+  
+  .item3 {
+    grid-column: 20 / 30 ;
+    width: 32rem;
+  }
+
+  
+.card-img-top{
+  max-width: 150px;
+  margin: auto;
+  font-weight: 200;  
+  align-content: center;
+  display: flex;
+}
+
+
+.card{
+  width: 12rem;
+  align-content: space-between;
+  margin: 10px;
+  
+}
