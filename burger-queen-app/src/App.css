@@ -64,15 +64,9 @@ body {
     padding: 10px 15;
     font-size: 10px;
   }
-  /* .item1 {
-    grid-template-columns: auto auto;
-    grid-column: 3/6;
-  }  */
+ 
   
-  .item3 {
-    grid-column: 20 / 30 ;
-    width: 32rem;
-  }
+  
 
   
 .card-img-top{
@@ -87,6 +81,6 @@ body {
 .card{
   width: 12rem;
   align-content: space-between;
-  margin: 10px;
+  margin: 10px;F
   
 }
