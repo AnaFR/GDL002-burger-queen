@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/GDL002-burger-queen/static/css/main.ff0777fc.chunk.css",
-    "main.js": "/GDL002-burger-queen/static/js/main.379cf209.chunk.js",
-    "main.js.map": "/GDL002-burger-queen/static/js/main.379cf209.chunk.js.map",
+    "main.css": "/GDL002-burger-queen/static/css/main.36ce0ce0.chunk.css",
+    "main.js": "/GDL002-burger-queen/static/js/main.b7d92c2d.chunk.js",
+    "main.js.map": "/GDL002-burger-queen/static/js/main.b7d92c2d.chunk.js.map",
     "runtime~main.js": "/GDL002-burger-queen/static/js/runtime~main.2601196f.js",
     "runtime~main.js.map": "/GDL002-burger-queen/static/js/runtime~main.2601196f.js.map",
-    "static/css/2.266e55a5.chunk.css": "/GDL002-burger-queen/static/css/2.266e55a5.chunk.css",
-    "static/js/2.32db89ba.chunk.js": "/GDL002-burger-queen/static/js/2.32db89ba.chunk.js",
-    "static/js/2.32db89ba.chunk.js.map": "/GDL002-burger-queen/static/js/2.32db89ba.chunk.js.map",
+    "static/css/2.17f61c9d.chunk.css": "/GDL002-burger-queen/static/css/2.17f61c9d.chunk.css",
+    "static/js/2.9cd70230.chunk.js": "/GDL002-burger-queen/static/js/2.9cd70230.chunk.js",
+    "static/js/2.9cd70230.chunk.js.map": "/GDL002-burger-queen/static/js/2.9cd70230.chunk.js.map",
     "index.html": "/GDL002-burger-queen/index.html",
-    "precache-manifest.76390d85ac24abb04607b05c25fad358.js": "/GDL002-burger-queen/precache-manifest.76390d85ac24abb04607b05c25fad358.js",
+    "precache-manifest.d202822073a0706b5705afd82db1169a.js": "/GDL002-burger-queen/precache-manifest.d202822073a0706b5705afd82db1169a.js",
     "service-worker.js": "/GDL002-burger-queen/service-worker.js",
-    "static/css/2.266e55a5.chunk.css.map": "/GDL002-burger-queen/static/css/2.266e55a5.chunk.css.map",
-    "static/css/main.ff0777fc.chunk.css.map": "/GDL002-burger-queen/static/css/main.ff0777fc.chunk.css.map",
+    "static/css/2.17f61c9d.chunk.css.map": "/GDL002-burger-queen/static/css/2.17f61c9d.chunk.css.map",
+    "static/css/main.36ce0ce0.chunk.css.map": "/GDL002-burger-queen/static/css/main.36ce0ce0.chunk.css.map",
+    "static/media/mdb.css": "/GDL002-burger-queen/static/media/arrow_right.8ef6a08c.svg",
+    "static/media/all.min.css": "/GDL002-burger-queen/static/media/fa-solid-900.f14c3b2f.ttf",
     "static/media/logo.svg": "/GDL002-burger-queen/static/media/logo.0354cb1c.svg"
   }
 }
