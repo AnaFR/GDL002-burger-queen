@@ -82,8 +82,8 @@ export const storeProducts = [
   },
   {
     id: 8,
-    title: "Fresh juice",
-    img: "Onions Rings",
+    title: "Onions Rings",
+    img: "",
     price: 5,
 
     info: "",

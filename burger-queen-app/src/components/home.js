@@ -10,7 +10,8 @@ import {
 
 const FormPage = () => {
   return (
-    <MDBContainer>
+    <MDBContainer className= "logIn">
+      <div class="d-flex justify-content-center">
       <MDBRow>
         <MDBCol md="6">
           <MDBCard
@@ -76,6 +77,7 @@ const FormPage = () => {
           </MDBCard>
         </MDBCol>
       </MDBRow>
+      </div>
     </MDBContainer>
   );
 };
