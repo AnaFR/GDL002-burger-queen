@@ -13,14 +13,15 @@ const FormPage = () => {
     <MDBContainer className= "logIn">
       <div class="d-flex justify-content-center">
       <MDBRow>
-        <MDBCol md="6">
+        <MDBCol md="4">
           <MDBCard
           
             className="card-image"
             style={{
               backgroundImage:
-                "url(https://claudiagarfias.works/laboratoria/sharedimages/latte.png)",
-              width: "28rem"
+                "url(https://media.istockphoto.com/photos/bacon-burger-picture-id533436672?k=6&m=533436672&s=612x612&w=0&h=dQ-piy3q5PUohaew9CJiysOS-uFas45UyYnrOekYsxA=)",
+              width: "23rem"
+              // height: "30rem"
             }}
           >
             <div className="text-white rgba-stylish-strong py-5 px-5 z-depth-4">
@@ -42,7 +43,7 @@ const FormPage = () => {
                     value=""
                     id="defaultCheck17"
                   />
-                  {/* <label
+                  <label
                     className="form-check-label white-text"
                     htmlFor="defaultCheck17"
                   >
@@ -50,7 +51,7 @@ const FormPage = () => {
                     <a href="#!" className="green-text font-weight-bold">
                       Terms and Conditions
                     </a>
-                  </label> */}
+                  </label>
                 </div>
               </div>
               <MDBRow className="d-flex align-items-center mb-4">

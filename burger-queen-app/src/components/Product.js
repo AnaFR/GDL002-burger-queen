@@ -28,7 +28,7 @@ export default class Product extends Component {
                   >
                     {inCart ? (
                       <p className="text-capitalize mb-0" disabled>
-                        in cart
+                        in kitchen
                       </p>
                     ) : (
                       <i className="fas fa-cart-plus" />
@@ -67,7 +67,7 @@ const ProductWrapper = styled.div`
       box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.2);
     }
     .card-footer {
-      background: b;
+      background: var(--mainBrown);
     }
   }
   .img-container {
@@ -85,7 +85,7 @@ const ProductWrapper = styled.div`
     bottom: 0;
     right: 0;
     padding: 0.2rem 0.4rem;
-    background: var(--lightBlue);
+    background: var(--mainOrange);
     border: none;
     color: var(--mainWhite);
     font-size: 1.4rem;
@@ -97,7 +97,7 @@ const ProductWrapper = styled.div`
     transform: translate(0, 0);
   }
   .cart-btn:hover {
-    color: var(--mainBlue);
+    color: var(--mainWhite);
     cursor: pointer;
   }
 `;

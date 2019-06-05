@@ -29,7 +29,7 @@ const Nav = styled.nav`
   background: var(--mainBrown);
   .nav-link {
     color: var(--mainWhite) !important;
-    font-size:1.2rem;
+    font-size:1rem;
     text-transform:capitalize;
   }
   @media (max-width: 576px) {
